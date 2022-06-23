@@ -26,9 +26,9 @@
     steps:
       cloudFoundryDeploy:
         cloudFoundry: 
-          apiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
-          org: "19a0ed53-db23-4b7c-99f6-08e353670809"
-          space: "ABAP Environment"
+          apiEndpoint: "https://api.cf.us10.hana.ondemand.com"
+          org: "bebdc7e1trial"
+          space: "dev"
           credentialsId: "cfdeploy"
           appName: ""
         mtaDeployParameters: "-f --version-rule ALL"
